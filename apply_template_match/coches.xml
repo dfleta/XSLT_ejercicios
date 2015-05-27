@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- pag. 372 libro XSLT  -->
+
+<?xml-stylesheet type="text/xsl" href="apply_template_match.xsl"?>
+
+<cars>
+	<manufacturer name="Chevrolet">
+		<car>Cavalier</car>
+		<car>Corvette</car>
+		<car>Impala</car>
+		<car>Malibu
+			<foo>foo</foo>
+		</car>
+	</manufacturer>
+	<manufacturer name="Ford">
+		<car>Pinto</car>
+		<car>Mustang</car>
+		<car>Taurus</car>
+	</manufacturer>
+	<manufacturer name="Volkswagen">
+		<car>Beetle</car>
+		<car>Jetta</car>
+		<car>Passat</car>
+		<car>Touraeg</car>
+		<faa>faa</faa>
+		<faa>faa</faa>
+		<faa>faa</faa>
+	</manufacturer>
+</cars>

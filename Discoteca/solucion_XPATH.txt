@@ -1,0 +1,30 @@
+
+Intenta, mediante expresiones XPath, completar las siguientes consultas:
+
+- Extraer aquellos discos cantados en italiano.
+
+	//title[@lang='IT']
+	//cd [descendant::title[@lang='IT']]	
+	
+- Extraer aquellos discos de la década de los 80:
+
+	//title[following-sibling::year<1990]
+	//cd[year<1990]
+
+
+- Extraer aquellos discos con precio menor que 8$
+
+	//cd[price<8] no válido para aquellos que tienen dos elementos price dentro de PVP
+	//cd[descendant::price[1]<8]
+	/catalog/cd[price<8]/title
+	
+- Aquellos cd's con el precio en euros:
+
+	//cd[descendant::currency[2]="euro"]
+	//cd[descendant::currency="euro"]/title
+
+- Selecciona el último cd publicado en la Unión Europea:
+
+	//cd[country="EU"][last()]
+	//cd[country="EU"][last()]/title
+
