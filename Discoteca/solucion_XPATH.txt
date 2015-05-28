@@ -4,7 +4,7 @@ Intenta, mediante expresiones XPath, completar las siguientes consultas:
 - Extraer aquellos discos cantados en italiano.
 
 	//title[@lang='IT']
-	//cd [descendant::title[@lang='IT']]	
+	//cd[descendant::title[@lang='IT']]	
 	
 - Extraer aquellos discos de la década de los 80:
 
