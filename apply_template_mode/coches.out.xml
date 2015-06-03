@@ -1,0 +1,43 @@
+<html>
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Using the mode attribute</title>
+</head>
+<body style="font-family: sans-serif;">
+<table style="text-align: center;" border="1">
+<tr style="font-weight: bold; font-size: 150%;">
+<td width="30%">Default mode</td><td width="30%">Blue mode</td><td width="30%">Red mode</td>
+</tr>
+<tr>
+<td>
+<p>
+<div style="color: green; font-style: italic; font-size: 125%;">Cavalier<br>Corvette<br>Impala<br>Malibu<br>
+</div>
+<div style="color: green; font-style: italic; font-size: 125%;">Pinto<br>Mustang<br>Taurus<br>
+</div>
+<div style="color: green; font-style: italic; font-size: 125%;">Beetle<br>Jetta<br>Passat<br>Touraeg<br>
+</div>
+</p>
+</td><td>
+<p>
+<div style="color: blue; font-weight: bold;">Cavalier<br>Corvette<br>Impala<br>Malibu<br>
+</div>
+<div style="color: blue; font-weight: bold;">Pinto<br>Mustang<br>Taurus<br>
+</div>
+<div style="color: blue; font-weight: bold;">Beetle<br>Jetta<br>Passat<br>Touraeg<br>
+</div>
+</p>
+</td><td>
+<p>
+<div style="color: red; font-family: monospace; font-weight: bold; font-size: 150%;">Cavalier<br>Corvette<br>Impala<br>Malibu<br>
+</div>
+<div style="color: red; font-family: monospace; font-weight: bold; font-size: 150%;">Pinto<br>Mustang<br>Taurus<br>
+</div>
+<div style="color: red; font-family: monospace; font-weight: bold; font-size: 150%;">Beetle<br>Jetta<br>Passat<br>Touraeg<br>
+</div>
+</p>
+</td>
+</tr>
+</table>
+</body>
+</html>
